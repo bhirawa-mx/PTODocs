@@ -18,6 +18,7 @@ jobs:
         source_file: 'site'
         destination_repo: 'mahoni-coder/PTO'
         destination_folder: 'web/public'
+        destination_branch: 'master'
         user_email: 'bhirawa@indonesia-commerce.com'
         user_name: 'bhirawa-mx'
         commit_message: 'A new version of docs created and pushed by github actions'
