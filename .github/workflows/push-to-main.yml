@@ -1,0 +1,23 @@
+name: Push File
+
+on: push 
+  # Triggers the workflow on push or pull request events but only for the master branch
+
+jobs:
+  copy-file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Pushes test file
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      with:
+        source_file: 'site'
+        destination_repo: 'mahoni-coder/PTO'
+        destination_folder: 'web/public'
+        user_email: 'bhirawa@indonesia-commerce.com'
+        user_name: 'bhirawa-mx'
+        commit_message: 'A new version of docs created and pushed by github actions'
