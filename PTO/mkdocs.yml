@@ -1,0 +1,9 @@
+site_name: PTO Official Documentations
+repo_url: https://github.com/bhirawa-mx/PTODocs
+site_description: This is official documentation for PTO include user guide and issues tracker.
+nav: 
+  - Home: 'index.md'
+  - 'User Guide':
+      - 'Assessment Type': 'assesment-type.md'
+      - 'Frequently Asked Question': 'faq.md'
+      - 'Glosarium': 'glosarium.md'
