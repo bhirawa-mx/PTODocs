@@ -4,6 +4,17 @@ site_description: This is official documentation for PTO include user guide and 
 nav: 
   - Home: 'index.md'
   - 'User Guide':
+      - 'User administration': 'admin/user-admin.md'
+      - 'Initial setup': 'setup/initial-setup.md'
+      - 'Input Soal':
+          - 'Manual input': 'input/input-soal-manual.md'
+          - 'Upload': 'input/input-soal-upload.md'
+          - 'Bank Soal': 'input/input-soal-bank.md'
+      - 'Paket Soal':
+          - 'Assessment A': 'paket-soal/assessment-a.md'
+          - 'Assessment B': 'paket-soal/assessment-a.md'
+          - 'Assessment C': 'paket-soal/assessment-a.md'
+          - 'Tugas': 'paket-soal/assessment-a.md'
       - 'Assessment Type': 'assesment-type.md'
-      - 'Frequently Asked Question': 'faq.md'
       - 'Glosarium': 'glosarium.md'
+  - FAQ: 'faq.md'
