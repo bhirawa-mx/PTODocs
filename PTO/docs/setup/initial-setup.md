@@ -10,13 +10,16 @@ Administrator (_selanjutnya disebut_ **Admin**) dapat melakukan pengaturan terte
 2. Akses halaman PTO.
 3. Login menggunakan akun Admin.
 
-    !!!Note
+!!! Note 
 
-    Default akun:
+    Default akun: 
 
     user: adminsekolah
-
+    
     password: admin123
+
+![Dashboard Admin](../img/dashboard-admin.png)
+
 
 ## Pengaturan kelas dan jurusan.
 
@@ -50,12 +53,13 @@ Administrator (_selanjutnya disebut_ **Admin**) dapat melakukan pengaturan terte
 7.  Semua daftar yang telah diinput di dalam file template akan muncul.
     - Klik Cek Kondisi  
     - Pastikan kolom Kondisi terisi OK semua.
+8. Klik **Proses Import**.
 
-    !!!Note
-
+!!! warning
+    
     Jika kolom kondisi tidak OK, maka ada yang tidak beres pada isian template.
 
-8. Klik **Proses Import**.
+
 
 ## Pengaturan mata pelajaran.
 
