@@ -5,8 +5,8 @@ This repo is for documentation only.
 
 TO-DO
 
-1. User administration
-2. Initial setup
+1. ~~User administration~~ included in initial setup.
+2. Initial setup 80%
 3. Terminologi dasar.
 4. Input Soal
 	- Manual
