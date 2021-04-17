@@ -1,11 +1,12 @@
 site_name: PTO Official Documentations
 repo_url: https://github.com/bhirawa-mx/PTODocs
 site_description: This is official documentation for PTO include user guide and issues tracker.
+site_dir: 'build/docs'
 nav: 
   - Home: 'index.md'
   - 'User Guide':
-      - 'User administration': 'admin/user-admin.md'
       - 'Initial setup': 'setup/initial-setup.md'
+      #- 'User administration': 'admin/user-admin.md'
       - 'Input Soal':
           - 'Manual input': 'input/input-soal-manual.md'
           - 'Upload': 'input/input-soal-upload.md'

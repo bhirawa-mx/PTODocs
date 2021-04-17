@@ -21,7 +21,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
       with:
-        source_file: 'PTO/site'
+        source_file: 'PTO/build/docs'
         destination_repo: 'mahoni-coder/PTO'
         destination_folder: 'web/public'
         destination_branch: 'master'
