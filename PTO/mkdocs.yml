@@ -1,5 +1,5 @@
 site_name: PTO Official Documentations
-repo_url: https://github.com/bhirawa-mx/PTODocs
+# repo_url: https://github.com/bhirawa-mx/PTODocs
 site_description: This is official documentation for PTO include user guide and issues tracker.
 site_dir: 'build/docs'
 markdown_extensions:
@@ -10,6 +10,7 @@ nav:
       - 'Initial setup': 'setup/initial-setup.md'
       #- 'User administration': 'admin/user-admin.md'
       - 'Input Soal':
+          - 'Model soal AKM': 'input/definisi.md'
           - 'Manual input': 'input/input-soal-manual.md'
           - 'Upload': 'input/input-soal-upload.md'
           - 'Bank Soal': 'input/input-soal-bank.md'

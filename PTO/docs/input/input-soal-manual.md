@@ -4,7 +4,7 @@ Guru membuat/memasukkan soal langsung dalam sistem PTO. Untuk melakukannya, guru
 
 ## Model soal AKM.
 
- Sebelum memulai proses input soal, sebaiknya pelajari dulu tentang beberapa model soal AKM, lihat [penjelasan model soal AKM](../assesment-type.md).
+ Sebelum memulai proses input soal, sebaiknya pelajari dulu tentang beberapa model soal AKM, lihat [penjelasan model soal AKM](definisi.md).
 
 ### Login menggunakan akun guru.
 
@@ -31,11 +31,65 @@ Untuk login atau masuk menggunakan guru, user hanya perlu mengakses halaman logi
 
     ![Varian pilihan](../img/varian-pilihan-pilgan.png)
 
-6. Untuk jenis soal **Single Answer**:
-    - Isikan pilihan jawaban di masing-masing kolom yang disediakan
-    - Dapat menyertakan gambar
-    - Pada dropdown **Kunci**, pilih 1 jawaban yang benar.
-    - Klik **Submit**.
-7. Untuk jenis soal **Many Answer**:
-    - Klik/centang checbox **Kunci** untuk pilihan yang merupakan kunci jawaban.
-    - Harus ada **minimal 1 kunci jawaban**.
+## **Single Answer**
+    
+![single-answer](../img/single-answer.png)
+
+- Isikan pilihan jawaban di masing-masing kolom yang disediakan
+- Dapat menyertakan gambar
+- Pada dropdown **Kunci**, pilih 1 jawaban yang benar.
+- Klik **Submit**.
+
+## **Many Answer**
+    
+![many answer](../img/many-asnwer.png)
+
+- Klik/centang checbox **Kunci** untuk pilihan yang merupakan kunci jawaban.
+- Harus ada **minimal 1 kunci jawaban**.
+
+## **Menjodohkan/PAIR**
+
+![pair](../img/pair-soal.png)
+
+- Isikan pernyataan pada setiap **Pilihan dan Pasangan** yang sesuai sebagai **kunci**
+- Tidak dapat menyertakan gambar
+- Disediakan juga Palsu 1 – Palsu 2 Pasangan sebagai pengecoh jawaban.
+
+    ![pair-fake](../img/pair-fake.png)
+
+!!! note
+
+    Model soal ini tidak dapat menyertakan gambar dalam jawaban.
+
+## **Benar/Salah**
+- Keterangan Benar & Keterangan Salah
+- Isikan pernyataan dan kunci dari jawaban pernyataan tersebut.
+
+    ![benar salah](../img/benar-salah.png)
+
+!!! note
+
+    Model soal ini tidak dapat menyertakan gambar dalam jawaban.
+
+## **Isian singkat**
+- Dalam pembuatan soal isian singkat, silakan untuk membubuhi (x) di tempat siswa dapat menjawab (seperti pada gambar)
+
+!!! warning
+
+    Jangan lupa tanda **(x)**, kalo tidak ada ini, anaknya tidak bisa jawab.
+
+!!! note
+
+    Model soal ini tidak dapat menyertakan gambar dalam jawaban.
+
+![isian singkat](../img/isian-singkat.png)
+
+## **Essay**
+- Dapat mencantumkan gambar
+- Pada Kunci Essay dapat diisi kunci jawaban sebagai acuan saat koreksi atau dapat dikosongkan.
+
+    ![essay](../img/essay-input.png)
+
+!!! note
+
+    Jika dalam proses ini anda mengalami kesalahan, atau muncul pesan PTO berhenti, silakan hubungi CS
