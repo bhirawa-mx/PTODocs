@@ -1,4 +1,4 @@
-name: Copy build file to PTO Cloud
+name: Copy build file to Kipin Classroom
 
 on: 
   # Triggers the workflow on push or pull request events but only for the master branch
@@ -24,7 +24,7 @@ jobs:
         source_file: 'PTO/build/docs'
         destination_repo: 'mahoni-coder/PTO'
         destination_folder: 'web/public'
-        destination_branch: 'master'
+        destination_branch: 'kipin-classroom'
         user_email: 'bhirawa@indonesia-commerce.com'
         user_name: 'bhirawa-mx'
         commit_message: ${{ github.event.inputs.commit_msg }}
